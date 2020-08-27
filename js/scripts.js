@@ -4,7 +4,7 @@ $(document).ready(function(){
        
     });
     $(".toggle").click(function(){
-        $(".hidden").css("text-align", "center").toggle(1000);
+        $(".hidden").css("text-align", "center").css("font-size", "10px").toggle(1000);
     });
 
 
@@ -12,7 +12,7 @@ $(document).ready(function(){
         $(".toggle-two img").toggle(1000);
     })
     $(".toggle-two").click(function(){
-        $(".hidden-two").css("text-align","center").toggle(1000);
+        $(".hidden-two").css("text-align","center").css("font-size","10px").toggle(1000);
     })
    
 
@@ -20,6 +20,6 @@ $(document).ready(function(){
         $(".toggle-three img").toggle(1000);
     })
     $(".toggle-three").click(function(){
-        $(".hidden-three").css("text-align","center").toggle(1000);
+        $(".hidden-three").css("text-align","center").css("font-size", "10px").toggle(1000);
     })
 });
