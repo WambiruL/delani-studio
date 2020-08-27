@@ -47,3 +47,7 @@ img{
 .third-container p{
     align-self: center;
 }
+.fourth-container{
+    display: flex;
+    border: 2px solid blue;
+}
