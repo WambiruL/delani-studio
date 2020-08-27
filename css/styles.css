@@ -7,7 +7,7 @@ box-sizing: border-box;
 .first-container{
     display: flex;
     width: 100%;
-    height:600px ;
+    height:1000px ;
     background-image: url(../resources/IP3/assets/backgrounds/h_img.jpg);
     background-position: center;
     background-repeat: no-repeat;
@@ -21,9 +21,9 @@ box-sizing: border-box;
    
     
 }
-img{
+.first-container img{
     align-self:center;
-    margin-top: 100px;
+    margin-top: 300px;
    
 }
 .logo{
@@ -35,7 +35,7 @@ img{
 .third-container{
     display: flex;
     width: 100%;
-    height: 300px;
+    height: 600px;
     background-image: url(../resources/IP3/assets/backgrounds/s_image.jpg);
     background-position: center;
     background-repeat: no-repeat;
@@ -47,19 +47,16 @@ img{
 .third-container p{
     align-self: center;
 }
-.fourth-container{
-    display: flex;
-    border: 2px solid blue;
-    width: 100%;
-    height: 700px;
-    justify-content: flex-start;
-}
 
 .photo-grid{
     display: flex;
     width: 100%;
     height: 300px;
-    border: 2px solid red;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    border: solid 2px red;
+    
   
 }
 .toggle{
@@ -80,5 +77,8 @@ img{
 }
 .hidden-three{
     display: none;
-}
 
+}
+h3{
+    text-align: center;
+}
