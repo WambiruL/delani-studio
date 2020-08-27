@@ -50,4 +50,30 @@ img{
 .fourth-container{
     display: flex;
     border: 2px solid blue;
+    width: 100%;
+    height: 700px;
 }
+.photo-grid{
+    display: flex;
+    width: 100%;
+}
+.toggle{
+    cursor: pointer;
+}
+.hidden{
+    display: none;
+}
+
+.toggle-two{
+    cursor: pointer;
+}
+.hidden-two{
+    display: none;
+}
+.toggle-three{
+    cursor: pointer;
+}
+.hidden-three{
+    display: none;
+}
+
