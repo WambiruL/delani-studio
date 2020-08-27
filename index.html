@@ -4,7 +4,7 @@
         <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
         <link href="css/styles.css" rel="stylesheet" type="text/css">
         <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="" crossorigin="anonymous"></script>
-        <script src="js/index.js"></script>
+        <script src="js/scripts.js"></script>
         <title>DELANI STUDIO</title>
     </head>
     <body>
@@ -34,28 +34,35 @@
             <div class="fourth-container">
                 <div class="photo-grid">
                     <h5>WHAT WE DO</h5>
-                    <div class="photo-one">
-                        <img src="resources/IP3/assets/services_icons/design_icon.png">
-                        <div class="description-one">
-                            <h3>Design</h3>
-                            <p>Our design practice offers a full range of services including brand strategy, interaction and visual design and user experience testing.</p>
-                            <p>Throughout your project, our designers create and implement visual design and workflows, solicit user feedback and work with you to make sure what gets built is what is needed.</p>
-                        </div>
+                    <div id="photo-one">
+                        <div class="toggle">
+                            <img src="resources/IP3/assets/services_icons/design_icon.png">
+                            <div class="hidden">
+                                <h3>Design</h3>
+                                <p>Our design practice offers a full range of services including brand strategy, interaction and visual design and user experience testing.</p>
+                                <p>Throughout your project, our designers create and implement visual design and workflows, solicit user feedback and work with you to make sure what gets built is what is needed.</p>
+                            </div>
+                        </div>    
                     </div>
                     <div class="photo-two">
-                        <img src="resources/IP3/assets/services_icons/dev_icon.png">
-                        <div class="description-two">
-                            <h3>Development</h3>
-                            <p>All engineers are fluent in the latest enterprise, mobile and web development technologies.</p>
-                            <p>They collaborate with your team to write, and improve code on a daily basis, using proven practices such as test-driven development and pair programming.</p>                </div>
-                        </div>
+                        <div class="toggle-two">
+                            <img src="resources/IP3/assets/services_icons/dev_icon.png">
+                            <div class="hidden-two">
+                                <h3>Development</h3>
+                                <p>All engineers are fluent in the latest enterprise, mobile and web development technologies.</p>
+                                <p>They collaborate with your team to write, and improve code on a daily basis, using proven practices such as test-driven development and pair programming.</p>                </div>
+                            </div>
+                        </div>    
                     </div>
                     <div class="photo-three">
-                        <img src="resources/IP3/assets/services_icons/product_icon.png">
-                        <div class="description-three"></div>
-                        <h3>Product Management</h3>
-                        <p>Planning and development is iterative. Because we are constantly coding and testing, the products we build are always ready to go live.</p> 
-                        <p>This iterative process allows for changes as business requirements evolve.</p>
+                        <div class="toggle-three">
+                            <img src="resources/IP3/assets/services_icons/product_icon.png">
+                            <div class="hidden-three">
+                                <h3>Product Management</h3>
+                                <p>Planning and development is iterative. Because we are constantly coding and testing, the products we build are always ready to go live.</p> 
+                                <p>This iterative process allows for changes as business requirements evolve.</p>
+                            </div>
+                        </div>    
                     </div>
                 </div>
             </div>
