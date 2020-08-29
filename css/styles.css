@@ -112,3 +112,6 @@ input{
 ::placeholder{
     color: white;
 }
+p{
+    text-align: center;
+}
