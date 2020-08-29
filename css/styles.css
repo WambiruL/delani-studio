@@ -108,10 +108,15 @@ input{
     background-color: transparent;
     border: 2px white solid;
     padding-right: 4em;
+    color: white;
 }
 ::placeholder{
     color: white;
 }
 p{
     text-align: center;
+}
+.social-icons{
+    text-align: center;
+    word-spacing: 20px;
 }
