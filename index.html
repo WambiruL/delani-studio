@@ -76,7 +76,10 @@
                     </div>
                 </div>
             <h3>PORTFOLIO</h3>
-            <div class="portfolio">
+            <div id="popup">
+                <p>DELANI STUDIO</p>
+            </div>
+            <div id="portfolio">
                 <div class="work-row-one">
                     <img src="resources/IP3/assets/portfolio/work4.jpg">
                     <img src="resources/IP3/assets/portfolio/work3.jpg">
@@ -100,11 +103,10 @@
                         <input type="text" id="name" placeholder="Name..." required>
                         <input type="email" id="email" placeholder="Email..." required>
                     </div>
+                    <textarea class="text-white" rows="8" cols="55" id="message" form="contact-us" placeholder="Your message here... " required></textarea><br></br>
                     <button type="reset" class="btn btn-dark" onclick= "refreshPage()">Reset</button>
                 </form>
-                <textarea class="text-white" rows="8" cols="55" id="message" form="contact-us" placeholder="Your message here... " required></textarea><br></br>
                 <button type="submit" class="btn btn-dark" onclick= "validation()">Submit</button>
-               
             </div>
             <br></br>
             <div class="social-icons">
