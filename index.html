@@ -2,9 +2,10 @@
 <html>
     <head>
         <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
-        <link href="css/styles.css" rel="stylesheet" type="text/css">
+        <link href="css/styles.css" rel="stylesheet" type="text/css" media="all">
         <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="" crossorigin="anonymous"></script>
         <script src="js/scripts.js"></script>
+        <link rel="shortcut icon" href="resources/IP3/assets/logo/logo.png"> 
         <title>DELANI STUDIO</title>
     </head>
     <body>
@@ -92,14 +93,30 @@
             <div class="fifth-container">
                 <br></br>
                 <h2 class="text-white">CONTACT US</h2>
+                <div id="error"></div>
                 <form id="contact-us">
                     <div class="form-group">
-                        <input type="text" id="name" placeholder="Name...">
-                        <input type="email" id="email" placeholder="Email...">
+                        <input type="text" id="name" placeholder="Name..." required>
+                        <input type="email" id="email" placeholder="Email..." required>
                     </div>
                 </form>
-                <textarea class="text-white" rows="8" cols="55" name="Message" form="contact-us" placeholder="Your message here... "></textarea>
+                <textarea class="text-white" rows="8" cols="55" id="Message" form="contact-us" placeholder="Your message here... " required></textarea>
             </div>
+            <br></br>
+            <div class="social-icons">
+                <img src="resources/IP3/assets/social_icons/twitter.png">
+                <img src="resources/IP3/assets/social_icons/dribble.png">
+                <img src="resources/IP3/assets/social_icons/facebook.png">
+                <img src="resources/IP3/assets/social_icons/g_plus.png">
+                <img src="resources/IP3/assets/social_icons/skype.png">
+                <img src="resources/IP3/assets/social_icons/stumble_upon.png">
+                <img src="resources/IP3/assets/social_icons/behance.png">
+                <img src="resources/IP3/assets/social_icons/pinterest.png">
+                <img src="resources/IP3/assets/social_icons/flickr.png">
+            </div>
+            <br></br>
+            <p>DELANI STUDIO</p>
+            <p>2019</p>>
         </div>
     </body>
 </html>
