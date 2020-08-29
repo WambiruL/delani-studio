@@ -9,6 +9,7 @@
  Lorraine Wambui Wambiru
 
 # Demo
+ https://wambirul.github.io/delani-studio/
  
 # Technologies used
  <li> HTML</li>
