@@ -1,4 +1,3 @@
-@media screen and (min-width:1000px) and (max-width:3000px){
 
     .first-container{
         display: flex;
@@ -134,4 +133,3 @@
         font-weight: bolder;
     }
 
-}
