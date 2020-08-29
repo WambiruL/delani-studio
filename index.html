@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
         <link href="css/styles.css" rel="stylesheet" type="text/css" media="all">
         <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="" crossorigin="anonymous"></script>
@@ -98,9 +100,11 @@
                         <input type="text" id="name" placeholder="Name..." required>
                         <input type="email" id="email" placeholder="Email..." required>
                     </div>
+                    <button type="reset" class="btn btn-dark" onclick= "refreshPage()">Reset</button>
                 </form>
                 <textarea class="text-white" rows="8" cols="55" id="message" form="contact-us" placeholder="Your message here... " required></textarea><br></br>
-                <button type="submit" class="btn" onclick= validation()>Submit
+                <button type="submit" class="btn btn-dark" onclick= "validation()">Submit</button>
+               
             </div>
             <br></br>
             <div class="social-icons">
