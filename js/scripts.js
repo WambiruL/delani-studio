@@ -25,9 +25,8 @@ $(document).ready(function(){
 
     $("form#contact-us").submit(function(event){
           event.PreventDefault();
-
-    })
-   
+               
+    });
 });
 
 //Business logic
@@ -46,4 +45,7 @@ function validation(){
         alert( name + " we have received your message. Thank you for reaching out to us.");
     };
 };
-console.log(validation());
+
+function refreshPage(){
+    window.location.reload;
+};
