@@ -1,3 +1,4 @@
+
 *{
 margin: 0;
 padding: 0;
@@ -79,10 +80,10 @@ box-sizing: border-box;
 h3{
     text-align: center;
 }
-.portfolio{
+#portfolio{
      text-align: center;
      line-height: 20px;
-     word-spacing: 20px;
+     word-spacing: 20px;     
 }
 .fifth-container{
     width: 100%;
@@ -119,4 +120,21 @@ p{
 .social-icons{
     text-align: center;
     word-spacing: 20px;
+}
+#popup{
+    height: 500px;
+    width: 50%;
+    position: absolute;
+    z-index: 99;
+    top: 8;
+    left: 500px;
+    background: white;
+    display: none;
+    opacity: 0.5;
+}
+#popup p{
+    text-align: center;
+    margin: 200px;
+    font-size: 50px;
+    font-weight: bolder;
 }
