@@ -23,10 +23,17 @@ $(document).ready(function(){
         $(".hidden-three").css("text-align","center").css("font-size", "15px").toggle(1000);
     });   
 
+
     $("form#contact-us").submit(function(event){
           event.PreventDefault();
-               
     });
+
+    $("#portfolio,#popup").mouseenter(function(){
+        $('#popup').show();
+      });
+      $("#portfolio,#popup").mouseleave(function(){
+        $('#popup').hide();
+      });
 });
 
 //Business logic
